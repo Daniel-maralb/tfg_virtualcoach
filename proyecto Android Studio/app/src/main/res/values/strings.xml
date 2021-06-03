@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">VirtualCoach</string>
+    <string name="notification_channel_id">virtualcoach</string>
+    <string name="notification_channel_name">Importación local</string>
+    <string name="notification_channel_description">Importando la base de datos auto-exportada de Gadgetbridge</string>
+    <string name="notification_title">Importando datos</string>
+    <string name="permission_storage_rationale">Se requiere acceso al almacenamiento para acceder a la base de datos exportada de Gadgetbridge</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Dirección de correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Entrar</string>
+    <string name="welcome">"Bienvenido!"</string>
+    <string name="login_failed">El login ha fallado</string>
+    <string name="action_sign_up">Registrar</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="prompt_repeat_password">Repetir contraseña</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="invalid_password_repeat">Las contraseñas no coinciden</string>
+    <string name="invalid_password_length">Debe tener de 8 a 32 caracteres</string>
+    <string name="register_msg_failed">El registro ha fallado</string>
+    <string name="register_msg_success">Registrado correctamente</string>
+    <string name="login_btn_register">Registrar</string>
+    <string name="email_in_use">Dirección de correo en uso</string>
+    <string name="invalid_password">Contraseña inválida</string>
+    <string name="invalid_username">Nombre de usuario inválido</string>
+    <string name="unknown_username">Nombre de usuario desconocido</string>
+    <string name="wrong_password">Contraseña incorrecta</string>
+    <string name="destination_training_progress_title">Progreso</string>
+
+    <!-- Messages Preferences -->
+    <string name="pref_title_path_to_import">Archivo de datos a importar</string>
+
+    <!-- Sync Preferences -->
+    <string name="destination_configuration_title">Configuración</string>
+    <string name="config_title_general">General</string>
+    <string name="config_title_gb">Gadgetbridge</string>
+    <string name="destination_edit_plan_title">Planificación</string>
+    <string name="sesion_hora_inicio">Hora de inicio:</string>
+    <string name="cancel">Cancelar</string>
+    <string name="preference_logout_button">preference_logout_button</string>
+    <string name="preference_logout_title">Cerrar sesión</string>
+    <string name="preference_logout_summary">Permite cambiar de usuario</string>
+    <string name="preference_refreshdb_summary">Vuelve a importar todos los datos disponibles</string>
+    <string name="preference_refreshdb_title">Volver a importar</string>
+    <string name="preference_refreshdb_button">preference_refreshdb_button</string>
+    <string name="permission_guard_title">Permiso requerido</string>
+    <string name="permission_guard_possitive">Conceder</string>
+    <string name="permission_guard_negative">Denegar</string>
+    <string name="preference_user_age_key">preference_user_age</string>
+    <string name="preference_user_age_title">Edad (Años)</string>
+    <string name="preference_user_weight_key">preference_user_weight</string>
+    <string name="preference_user_weight_title">Peso (kg)</string>
+    <string name="preference_user_height_key">preference_user_height</string>
+    <string name="preference_user_height_title">Altura (cm)</string>
+    <string name="register_failed">Error en el registro</string>
+    <string name="snack_msg_exercise_already_in_session">No se pueden repetir ejercicios</string>
+    <string name="default_days_picker_value">------</string>
+    <string name="session_repetition_label">Días:</string>
+    <string name="session_exercises_label">Ejercicios</string>
+    <string name="sesion_desc_btn_add_exercise">Añadir ejercicio</string>
+    <string name="default_time_picker_value">--:--</string>
+    <string name="destination_edit_session_loading_title">Cargando sesión</string>
+    <string name="default_session_log_date">11:30 del lunes 14 de abril</string>
+    <string name="default_session_log_result">Objetivo conseguido</string>
+    <string name="session_logs_list_empty">No hay datos</string>
+    <string name="register_page_name">Registro de usuario</string>
+    <string name="destination_register_title">Registro</string>
+    <string name="destination_login_title">Login</string>
+    <string name="destination_edit_session_title">Editar sesión</string>
+    <string name="edit_plan_session_label">Sesiones</string>
+    <string name="edit_plan_sessions_empty">No hay sesiones</string>
+    <string name="edit_plan_add_session">Botón usado para añadir una nueva sesión</string>
+</resources>

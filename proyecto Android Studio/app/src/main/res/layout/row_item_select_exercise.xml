@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/fragment_horizontal_margin"
+    android:layout_marginTop="@dimen/fragment_vertical_margin"
+    android:layout_marginEnd="@dimen/fragment_horizontal_margin"
+    android:layout_marginBottom="@dimen/fragment_vertical_margin"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/picker_item_exercise_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test name"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/picker_item_exercise_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="(dificultad)"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/picker_item_exercise_name"
+        app:layout_constraintTop_toTopOf="@+id/picker_item_exercise_name" />
+
+    <TextView
+        android:id="@+id/picker_item_exercise_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="300 min"
+        app:layout_constraintStart_toStartOf="@+id/picker_item_exercise_name"
+        app:layout_constraintTop_toBottomOf="@+id/picker_item_exercise_name" />
+
+    <TextView
+        android:id="@+id/picker_item_exercise_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="Pasos: 99999"
+        app:layout_constraintStart_toEndOf="@+id/picker_item_exercise_avghr"
+        app:layout_constraintTop_toTopOf="@+id/picker_item_exercise_avghr" />
+
+    <TextView
+        android:id="@+id/picker_item_exercise_avghr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="FC Media: 999"
+        app:layout_constraintStart_toEndOf="@+id/picker_item_exercise_duration"
+        app:layout_constraintTop_toTopOf="@+id/picker_item_exercise_duration" />
+</androidx.constraintlayout.widget.ConstraintLayout>

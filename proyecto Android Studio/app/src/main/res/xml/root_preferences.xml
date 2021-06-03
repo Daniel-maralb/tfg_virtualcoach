@@ -1,0 +1,41 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/config_title_gb">
+
+        <!-- TODO Use file picker for this -->
+        <EditTextPreference
+            app:key="db_to_import"
+            app:defaultValue="/storage/emulated/0/GBExports/db.sqlite3"
+            app:title="@string/pref_title_path_to_import"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            app:key="@string/preference_refreshdb_button"
+            app:title="@string/preference_refreshdb_title"
+            app:summary="@string/preference_refreshdb_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Usuario">
+
+        <EditTextPreference
+            app:key="@string/preference_user_age_key"
+            app:title="@string/preference_user_age_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/preference_user_weight_key"
+            app:title="@string/preference_user_weight_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/preference_user_height_key"
+            app:title="@string/preference_user_height_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            app:key="@string/preference_logout_button"
+            app:title="@string/preference_logout_title"
+            app:summary="@string/preference_logout_summary" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

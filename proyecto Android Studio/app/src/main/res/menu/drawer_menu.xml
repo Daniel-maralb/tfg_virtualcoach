@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/trainingProgressFragment"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/destination_training_progress_title" />
+
+    <item
+        android:id="@+id/editPlanFragment"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/destination_edit_plan_title" />
+
+    <item
+        android:id="@+id/preferencesFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/destination_configuration_title" />
+
+
+</menu>
